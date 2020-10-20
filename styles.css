@@ -1,0 +1,43 @@
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+.bottom {
+    position: fixed;
+    top: 80%;
+    margin-left: 5%;
+}
+
+p {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+    border: 2px solid #4CAF50;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white; /* Green */
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
